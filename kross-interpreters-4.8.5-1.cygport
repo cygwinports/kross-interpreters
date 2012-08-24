@@ -1,0 +1,7 @@
+inherit kde4
+
+CATEGORY="KDE"
+SUMMARY="KDE4 Python scripting engines"
+
+# kross/ruby does not compile with 1.9
+CYGCMAKE_ARGS="-DBUILD_ruby=OFF"
