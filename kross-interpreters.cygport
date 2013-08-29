@@ -1,10 +1,9 @@
-NAME="kross-interpreters"
-VERSION=4.8.5
-RELEASE=2
 inherit kde4
 
+NAME="kross-interpreters"
+VERSION=4.10.5
+RELEASE=1
 CATEGORY="KDE"
-SUMMARY="KDE4 Python scripting engines"
+SUMMARY="KDE4 scripting engines"
 
-# kross/ruby does not compile with 1.9
-CYGCMAKE_ARGS="-DBUILD_ruby=OFF"
+CYGCMAKE_ARGS="-DBUILD_falcon=NO -DBUILD_java=NO"
