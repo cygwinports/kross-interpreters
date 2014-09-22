@@ -1,9 +1,15 @@
 inherit kde4
 
 NAME="kross-interpreters"
-VERSION=4.12.5
-RELEASE=2
+VERSION=4.13.3
+RELEASE=1
 CATEGORY="KDE"
 SUMMARY="KDE4 scripting engines"
+
+PKG_NAMES="kross-python kross-ruby"
+kross_python_DOCS="COPYING"
+kross_python_CONTENTS="usr/lib/kde4/krosspython.dll"
+kross_ruby_DOCS="COPYING"
+kross_ruby_CONTENTS="usr/lib/kde4/krossruby.dll"
 
 CYGCMAKE_ARGS="-DBUILD_falcon=NO -DBUILD_java=NO"
