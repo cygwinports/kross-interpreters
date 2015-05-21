@@ -2,7 +2,7 @@ inherit kde4
 
 NAME="kross-interpreters"
 VERSION=4.14.3
-RELEASE=1
+RELEASE=2
 CATEGORY="KDE"
 SUMMARY="KDE4 scripting engines"
 
