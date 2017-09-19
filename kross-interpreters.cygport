@@ -2,7 +2,7 @@ inherit python ruby kde4
 
 NAME="kross-interpreters"
 VERSION=4.14.3
-RELEASE=3
+RELEASE=4
 CATEGORY="KDE"
 SUMMARY="KDE4 scripting engines"
 
